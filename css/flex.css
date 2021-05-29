@@ -1,0 +1,60 @@
+@font-face {
+  font-family:"Roboto" "Peignot";
+  src: url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap') ('fonts/peignot.ttf');  
+}
+body{
+  font-family: 'Roboto', 'peignot';
+}
+h1{
+  font-family: 'peignot';
+  font-size: 4rem;
+}
+.royalharphome{
+  text-align: left;
+  margin-left: 0 auto;
+  margin-right: auto;
+  font-family: 'peignot';
+  font-size:2rem;
+}
+.cabecalhoPrincipal .container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav #menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between
+}
+
+.conteudoPrincipal {
+  display: flex;
+  align-items: center;
+}
+
+.royalH {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.instrumentos {
+  display: flex;
+  flex-wrap: wrap;
+}
+.professores {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.imgs {
+  justify-content: space-around;
+  width: 10%;
+}

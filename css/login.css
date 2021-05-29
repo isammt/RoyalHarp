@@ -1,0 +1,326 @@
+body,
+ul,
+li,
+p {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  font-size: 1.2rem;
+
+}
+body {
+  background-color: white;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+aside {
+  flex-wrap: wrap;
+  flex: 2;
+  height: 100vh;
+}
+.logo {
+  width: 40px;
+  height: 40px;
+}
+.imgs {
+  position: relative;
+	height: 80px;
+	text-align: center;
+  margin-right: 1%;
+  margin-top: 3%;
+  margin-bottom: 1%;
+	transition: .3s;
+  border-style: solid;
+  border-width: 5px;
+  border-radius: 3px;
+  border-color:#0055A4;
+  box-shadow:4px 4px rgba(0, 0, 0, 0.26);
+  padding: 30px;
+}
+
+.instrumentos {
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.email,
+.senha {
+  margin-top: 10px;
+  height: 20px;
+  margin-bottom: 30px;
+  width: 350px;
+  height: 40px;
+  border-style: none;
+}
+.botao {
+  padding: 20px;
+  width: 120px;
+  margin-left: 110px;
+  margin-top: 30px;
+  background-color: #AF190E  ;
+  border-style: none;
+  color: white;
+  border-radius: 8px;
+  border: none;
+  font-size: 1.2rem;
+}
+.aluno {
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  border-style: solid;
+  border-color: white ;
+}
+.aluno2 {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.aluno3 {
+  margin-left: 10%;
+  margin-top: 11%;
+  width: 80%;
+
+}
+.aluno4 {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  padding: 20px;
+  box-shadow:4px 4px rgba(0, 0, 0, 0.26);
+  background-color: #0055A4;
+}
+
+fieldset {
+  height: 500px;
+  width: 300px;
+  margin-left: 25%;
+  margin-top: 10%;
+  background-color: #0055A4;
+  border-radius: 3px;
+  border-style: none;
+  box-shadow: 4px 4px rgba(0, 0, 0, 0.26);
+}
+
+h1 {
+  text-align: center;
+}
+
+
+.cabecalhoPrincipal {
+  background-color: #0055A4;
+  padding: 10px;
+  flex-direction: column;
+}
+
+.container {
+  width: 94%;
+  margin: 0 auto;
+}
+
+.cabecalhoPrincipal-nav li {
+  margin-left: 10px;
+}
+.cabecalhoPrincipal-nav li a {
+
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 20px;
+}
+
+
+.btMatric{
+  color:white;
+  background-color:#AF190E  ;
+  font-size: 1.2rem;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 0px;
+  border-radius: 8px;
+  border: none;
+}
+
+
+.conteudoPrincipal{
+  flex-wrap: wrap;
+
+}
+main {
+  flex: 2;
+  flex-wrap: wrap;
+  color: white;
+  height: 100vh;
+ 
+}
+
+.imgs img {
+  max-width: 40px;
+  min-width: 40px;
+ 
+}
+.imgs a p{
+  font-size: 1.2rem;
+  color: #0055A4;
+  margin-top:20px;
+}
+.imgs a{
+  text-align: center;
+	color: #0c2461;
+	display: block;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+  left: 0;
+  margin-top: 13%;
+
+}
+
+.dropbtn {
+  background-color:#0055A4;
+  width: 60px;
+  height: 60px;
+  display: none;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #ffffff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color:#0055A4;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-bottom:0.5px solid;
+  
+}
+
+.dropdown-content a:hover {
+  background-color: #f0f0f0;
+  color:#0055A4;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  
+  border-radius: 8px;
+  border: none;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+.cabecalhoPrincipal-nav li a {
+
+  padding: 0px;
+    
+}
+.cabecalhoPrincipal li:nth-child(1){
+  display:none;
+}
+.cabecalhoPrincipal li:nth-child(2){
+    display:none;
+}
+.cabecalhoPrincipal li:nth-child(3){
+    display:none;
+}
+.cabecalhoPrincipal li:nth-child(4){
+    display:none;
+}
+.cabecalhoPrincipal li:nth-child(5){
+    display:none;
+}
+.btMatric{
+  display: none;
+} 
+    
+.cabecalhoPrincipal li:last-child{
+    display:block;
+
+}
+.menuicon{
+    width: 40px;
+    height: 40px;
+    display: block;
+    padding-left: 4px;
+}
+
+  .aluno3 {
+    margin-top: 40px;
+    margin-left: 45px;
+    margin-right: 40px;
+  }
+  fieldset {
+  
+    
+    width: 240px;
+  }
+
+  .conteudoPrincipal {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  main {
+    width: 100%;
+    display: block;
+  }
+  aside {
+    display: block;
+    width: 100%;
+  }
+  img {
+    max-width: 50px;
+  }
+  .imgs {
+    width: 100px;
+    margin-left: 10px;
+    text-align: center;
+  }
+  .imgs a p{
+  font-size: 1rem;
+  color: #0055A4;
+
+  }
+  .aluno4 {
+    text-align: center;
+  }
+  .instrumentos {
+    margin-left: 32px;
+  }
+  .email,
+  .senha {
+    width: 200px;
+  }
+  .botao {
+    margin-left: 60px;
+  }
+
+  .buscar{
+    display: none;
+  }
+  .dropbtn{
+    display: block;
+  }
+}

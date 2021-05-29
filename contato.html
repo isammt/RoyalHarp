@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="stylesheet" href="css/flex.css" />
+    <script src="js/contato.js"></script>
+    <title>Royal Harp - Contato</title>
+  </head>
+  <body>
+    <header class="cabecalhoPrincipal">
+      <div class="container">
+        <a href="index.html"><img class="logo" src="imagens/royalcrown-logo.svg" alt="Logo Royal Harp" /></a>
+        <a href="index.html" class="royalharphome">Royal Harp</a>
+        <nav>
+          <ul class="cabecalhoPrincipal-nav" id="menu">            
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="login.html">Entrar</a></li>
+            <li><a href="planos.html" class="btMatric">Matricule-se</a></li>
+          </ul>
+          <div class="dropdown" style="float:right;">
+            <button class="dropbtn"><img class="menuicon" src="imagens/menu.svg" alt="icone de menu"> </button>
+            <div class="dropdown-content">
+              <a href="index.html">Home</a>
+              <a href="sobre.html">Sobre</a>
+              <a href="contato.html">Contato</a>
+              <a href="login.html">Entrar</a>
+              <a href="planos.html">Matricule-se</a>
+            </div>
+          </div> 
+        </nav>
+      </div>
+    </header>
+    <div>    
+      <h1>Contatos</h1>
+    </div> 
+    
+    <div id="erroNome" onclick="irnome()" tabindex="-1">ERRO: O nome não pode estar em branco.</div>
+    <div id="erroEmail" onclick="iremail() " tabindex="-1">ERRO: O e-mail deve estar no formato válido.</div>
+    <div id="erroTelefone" onclick="irtelefone()" tabindex="-1">ERRO: O telefone deve estar no formato válido. (00) 0000-00000</div>
+    <div id="erroMsg" onclick="irmensagem()" tabindex="-1">ERRO: O campo de mensagem não pode estar vazio.</div>
+    <div class="conteudoPrincipal">      
+      <main>
+        <form action="" method="POST" name="myForm"  onsubmit = "return(validate());">  
+            <fieldset class="fieldset">
+            <p class="deixenos">Deixe-nos uma mensagem que nós retornaremos em breve!</p>
+            <label for="nome">Nome completo: <span style="color:red">(Obrigatório)</span></label><br />
+            <input
+              type="name"
+              id="nome"
+              placeholder="Nome completo"
+              class="nome"
+              name="nome"
+              size="50"
+              maxlength="50"
+              onblur="inputNome()"
+            /><br /><br />
+            <label for="email">Email: <span style="color:red">(Obrigatório)</span></label><br />
+            <input
+              type="email"
+              id="email"
+              placeholder="Seu e-mail"
+              class="email"
+              name="email"
+              size="50"
+              maxlength="50"
+              onblur="inputEmail()"
+              
+            /><br /><br />
+
+            <label for="tel">Telefone: <span style="color:red">(Obrigatório)</span></label><br />
+            <input
+              type="tel"
+              id="tel"
+              class="tel"
+              name="telefone"
+              placeholder="(00)0000-00000"
+              size="15"             
+              onkeypress="$(this).mask('(00) 0000-00009')"
+              onblur="inputTel()"
+            /><br />
+
+            <label for="mensagem">Mensagem: <span style="color:red">(Obrigatório)</span></label><br />
+            <textarea class="msg"
+            id="mensagem"
+            name="mensagem" 
+            cols="50" rows="20" 
+            placeholder="Digite aqui a sua mensagem..." 
+            maxlength="600"
+            onblur="inputMsg()"
+            ></textarea>
+            <br />
+            
+            <input id="botao" class="botao" type="submit" value="Enviar"/>
+          </fieldset>
+        </form>
+      </main>
+      
+      <aside>     
+        <fieldset class="dados">
+            <p class="telefoneTexto">Telefone:</p>
+            <p class="telefoneContato">(13)3299-3350</p><br>
+            <p class="horarioTexto">*Horários de Atendimento*</p>
+            <p class="horarioContato">8:00h às 20:00h</p><br>         
+            <p class="emailTexto">Email:</p>
+            <p class="emailContato">contato@royalharp.com.br</p>
+        </fieldset>        
+        
+      </aside>
+    
+     
+    </div>
+ 
+    
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>

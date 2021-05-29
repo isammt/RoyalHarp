@@ -1,0 +1,384 @@
+body, ul, li, p,textarea {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+
+}
+  
+body {
+    background-color: white;
+}
+h1{
+    text-align: center;
+    color: #0055A4;
+}
+  
+main {
+    flex: 2;
+    flex-wrap: wrap;
+    color: white;
+    height: 100vh;
+   
+}
+  
+aside {
+    flex-wrap: wrap;
+    flex: 2;
+    height: 100vh;
+}
+#nome{    
+    border-radius: 8px;
+}
+#tel{    
+    border-radius: 8px;
+}
+#email{    
+    border-radius: 8px;
+}
+#mensagem{    
+    border-radius: 8px;
+
+}
+
+#erroNome{
+    padding: 20px;
+    background-color: #b60f0fce;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    display: none;
+    color: white;
+}
+#erroEmail{
+    padding: 20px;
+    background-color: #b60f0fce;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    display: none;
+    color: white;
+}
+#erroTelefone{
+    padding: 20px;
+    background-color: #b60f0fce;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    display: none;
+    color: white;
+}
+#erroMsg{
+    padding: 20px;
+    background-color: #b60f0fce;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    display: none;
+    color: white;
+}
+
+
+
+.deixenos{
+    font-size: 2rem;
+    margin-bottom: 30px;
+
+}
+
+.fieldset {
+    height: 700px;
+    width: 300px;
+    margin-left: 25%;
+    margin-top: 10%;
+    background-color: #0055A4;
+    border-radius: 3px;
+    border-style: none;
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.26);
+}
+.dados {
+    height: 330px;
+    width: 300px;
+    margin-left: 15%;
+    margin-top: 10%;
+    background-color: white;
+    border-radius: 3px;
+    border-style: none;
+    text-align: right;
+    color:  #0055A4;    
+    
+}
+.dados p{
+    font-size: 2rem;
+    margin-top:10px;
+    
+}
+
+.email,.nome,.tel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 30px;
+    border-style: none;
+}
+  
+.cabecalhoPrincipal {
+    background-color: #0055A4;
+    padding: 10px;
+}
+  
+.container {
+    width: 94%;
+    margin: 0 auto;
+}
+  
+a {
+    text-decoration: none;
+    color: white;
+}
+  
+.cabecalhoPrincipal-nav li {
+    margin-left: 10px;
+    display: block;
+}
+  
+.cabecalhoPrincipal-nav li a {
+
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 20px;
+  }
+  
+  
+  .btMatric{
+    color:white;
+    background-color:#AF190E ;
+    font-size: 1.2rem;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-right: 0px;
+    border-radius: 8px;
+    border: none;
+  }
+  
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.msg{
+    height: 150px;
+    width: 365px;
+    margin-top: 10px;
+}
+  
+.conteudoPrincipal {
+    flex-wrap: wrap;
+}
+  
+.botao {
+    padding: 20px;
+    width: 120px;
+    margin-left: 118px;
+    margin-top:8px;
+    background-color: #AF190E  ;
+    border-style: none;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+  
+.royalH {
+    text-align: center;
+    display: block;
+    background-color: rgb(176, 176, 255);
+    width: 50%;
+    margin: 2% auto;
+    padding: 1%;
+    color:blue;
+}
+
+.dropbtn {
+    background-color:#0055A4;
+    width: 60px;
+    height: 60px;
+    display: none;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color:#0055A4;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom:0.5px solid;
+    
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f0f0f0;
+    color:#0055A4;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    
+    border-radius: 8px;
+    border: none;
+  
+  }
+  
+  
+@media screen and (max-width: 1024px) {
+
+.cabecalhoPrincipal-nav li a {
+
+    padding: 0px;
+        
+}    
+.cabecalhoPrincipal li:nth-child(1){
+    display:none;
+} 
+.cabecalhoPrincipal li:nth-child(2){
+    display:none;
+}
+.cabecalhoPrincipal li:nth-child(3){
+    display:none;
+}
+.cabecalhoPrincipal li:nth-child(4){
+    display:none;
+}
+.cabecalhoPrincipal li:nth-child(5){
+    display:none;
+}
+.dropmenu li:nth-child(2){
+    display: block;
+}
+.dropmenu li:nth-child(3){
+    display: block;
+}
+.dropmenu li:nth-child(4){
+    display: block;
+}
+.dropmenu li:last-child{
+    display: block;
+}   
+        
+.cabecalhoPrincipal li:last-child{
+    display:block;
+    
+}
+.menuicon{
+    width: 40px;
+    height: 40px;
+    display: block;
+    padding-left: 4px;
+}   
+
+.fieldset {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    justify-content: center;
+}
+    
+.email,.nome,.tel{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 260px;
+    height: 30px;
+    border-style: none;
+}
+
+.botao{
+    margin-left: 70px;
+}
+    
+.msg{
+    height: 100px;
+    width: 260px;
+}
+
+.dados {
+    height: 330px;
+    width: 260px;
+    margin-left: 0%;
+    margin-top: 10%;
+    text-align: left; 
+}
+
+.dados p{
+    font-size: 1.4rem;
+}
+
+.conteudoPrincipal {
+    flex-direction: column;
+    width: 100%;
+}
+    
+main {
+    width: 100%;
+    display: block;
+}
+    
+aside {
+    display: block;
+    width: 100%;
+}
+    
+.buscar{
+    display: none;
+}
+       
+.fieldsetE{
+    margin-left: 8%;
+    
+}
+    
+.fieldsetD{
+    margin-left: 8%;
+    
+    }
+.dropbtn{
+    display: block;
+    }
+.btMatric{
+    display: none;
+    }
+.cabecalhoPrincipal li:nth-child(1){
+    display:none;
+}
+}
+  
