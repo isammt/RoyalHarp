@@ -53,6 +53,7 @@ aside {
   width: 350px;
   height: 40px;
   border-style: none;
+  border-radius:8px;
 }
 .botao {
   padding: 20px;
