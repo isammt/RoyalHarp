@@ -27,19 +27,10 @@ aside {
     flex: 2;
     height: 100vh;
 }
-#nome{    
+#nome, #tel, #email, #mensagem{    
     border-radius: 8px;
 }
-#tel{    
-    border-radius: 8px;
-}
-#email{    
-    border-radius: 8px;
-}
-#mensagem{    
-    border-radius: 8px;
 
-}
 
 #erroNome{
     padding: 20px;
