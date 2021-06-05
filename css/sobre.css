@@ -262,8 +262,8 @@ body, ul, li, p {
       margin-top: 5%;
   }
     .imgs {
-      width: 100px;
-      margin-left: 0;
+      height: 160px;
+
     }
     .imgs img{
       width: 200px;
