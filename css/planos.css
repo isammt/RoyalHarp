@@ -382,6 +382,11 @@ caption{
     margin-bottom: 60px;
     
   }
+  th, td{
+    padding: 10px;
+    border:3px ;
+    border-style: solid;
+  }
   .dropbtn{
     display: block;
     }
