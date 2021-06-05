@@ -274,7 +274,7 @@ main {
   }
   .fieldset {
     margin-right:auto; 	
-    maring-left:auto;
+    margin-left:auto;
     width: 240px;
   }
 
@@ -307,9 +307,7 @@ main {
   .aluno4 {
     text-align: center;
   }
-  .instrumentos {
-    margin-left: 32px;
-  }
+
   .email,
   .senha {
     width: 200px;
