@@ -66,7 +66,12 @@ h1 {
   color: white;
   border-radius: 8px;
 }
-
+.botaoD:hover{
+  background-color: #6e110a;
+}
+.botaoE:hover{
+  background-color: #6e110a;
+}
 .planoMensal {
   text-align: center;
   font-weight: bold;
