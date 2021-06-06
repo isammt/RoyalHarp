@@ -30,6 +30,9 @@ aside {
 #nome, #tel, #email, #mensagem{    
     border-radius: 8px;
 }
+input:hover{
+    background-color: #cce6ff;
+}
 
 
 #erroNome{
