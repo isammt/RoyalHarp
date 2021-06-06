@@ -65,3 +65,35 @@ h1{
   background-color: #6e110a !important;
 
 }
+.link span:hover{
+  background-color:#002f5c ;
+}
+.link a{
+  color: white !important;
+  font-size: 1.3rem;
+}
+.link{
+  padding-bottom: 2%;
+}
+footer{
+  flex-basis: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #0055A4;
+  color: white;
+}
+
+#rodape{
+    flex-basis: 100%;
+  max-width: 1920px;
+  margin: 20px;
+
+}
+
+#rodape p{
+  flex-basis: 100%;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
+}
