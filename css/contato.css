@@ -33,7 +33,9 @@ aside {
 input:hover{
     background-color: #cce6ff;
 }
-
+.botao:hover{
+    background-color:#6e110a;
+}
 
 #erroNome{
     padding: 20px;
