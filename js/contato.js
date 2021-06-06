@@ -13,10 +13,10 @@ function validate() {
     if( nome.value == "" ) {        
         erroNome.style.display = "block";  
         erroNome.focus(); 
-        nome.style.border="4px solid red";
+        nome.style.border="2.5px solid red";
         return false; }
     else{
-        nome.style.border="4px solid rgb(0, 255, 0)";
+        nome.style.border="2.5px solid rgb(0, 255, 0)";
         erroNome.style.display= "none"
     }
 
@@ -24,33 +24,33 @@ function validate() {
     if( email.value == "") {        
         erroEmail.style.display = "block";
         erroEmail.focus() ;
-        email.style.border="4px solid red";
+        email.style.border="2px solid red";
         return false;
     }
     else{
-        email.style.border="4px solid rgb(0, 255, 0)";
+        email.style.border="2px solid rgb(0, 255, 0)";
         erroEmail.style.display= "none"
     }
 
     if( tel.value == "" || telcamp < 14) {        
         erroTelefone.style.display = "block"
         erroTelefone.focus();
-        tel.style.border="4px solid red";
+        tel.style.border="2px solid red";
         return false;
     }
     else{
-        tel.style.border="4px solid rgb(0, 255, 0)";
+        tel.style.border="2px solid rgb(0, 255, 0)";
         erroTelefone.style.display= "none"
     }
 
     if( msg.value == "" ) {       
         erroMsg.style.display = "block"
         erroMsg.focus();
-        msg.style.border="4px solid red";
+        msg.style.border="2px solid red";
         return false;
     }
     else{
-        msg.style.border="4px solid rgb(0, 255, 0)"
+        msg.style.border="2px solid rgb(0, 255, 0)"
         erroMsg.style.display= "none"
     }
      
@@ -74,20 +74,20 @@ function inputNome(){
     const nome = document.getElementById("nome")
     if( nome.value == "" ) {        
 
-        nome.style.border="4px solid red";
+        nome.style.border="2.5px solid red";
         return false; }
     else{
-        nome.style.border="4px solid rgb(0, 255, 0)";
+        nome.style.border="2.5px solid rgb(0, 255, 0)";
     }
 }
 function inputEmail(){
     const email = document.getElementById("email")
     if( email.value == "") {        
 
-        email.style.border="4px solid red";
+        email.style.border="2.5px solid red";
         return false; }
     else{
-        email.style.border="4px solid rgb(0, 255, 0)";
+        email.style.border="2.5px solid rgb(0, 255, 0)";
     }
 }
 function inputTel(){
@@ -95,19 +95,19 @@ function inputTel(){
     const telcamp = document.getElementById("tel").value.length
     if ( tel.value == "" || telcamp < 14) {        
 
-        tel.style.border="4px solid red";
+        tel.style.border="2.5px solid red";
         return false; }
     else{
-        tel.style.border="4px solid rgb(0, 255, 0)";
+        tel.style.border="2.5px solid rgb(0, 255, 0)";
     }
 }
 function inputMsg(){
     const msg = document.getElementById("mensagem")
     if( msg.value == "" ) {        
 
-        msg.style.border="4px solid red";
+        msg.style.border="2.5px solid red";
         return false; }
     else{
-        msg.style.border="4px solid rgb(0, 255, 0)";
+        msg.style.border="2.5px solid rgb(0, 255, 0)";
     }
 }
